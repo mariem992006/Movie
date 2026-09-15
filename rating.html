@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Movie - SHOWFILMS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="rate-body">
+
+    <div class="rate-card">
+
+        <div class="rate-header">
+            <small class="rate-subtitle">RATE THIS MOVIE</small>
+            <h2 class="rate-title">DO YOU LIKE IT OR NOT?</h2>
+            <div class="red-line"></div>
+        </div>
+
+        <form>
+            <div class="rating-section">
+                <label class="rating-label">Select Rating (1 to 5):</label>
+                <div class="rating-options">
+
+                    <input type="radio" name="rating" id="star1" value="1" class="btn-check">
+                    <label for="star1" class="rate-num-btn">1</label>
+
+                    <input type="radio" name="rating" id="star2" value="2" class="btn-check">
+                    <label for="star2" class="rate-num-btn">2</label>
+
+                    <input type="radio" name="rating" id="star3" value="3" class="btn-check">
+                    <label for="star3" class="rate-num-btn">3</label>
+
+                    <input type="radio" name="rating" id="star4" value="4" class="btn-check">
+                    <label for="star4" class="rate-num-btn">4</label>
+
+                    <input type="radio" name="rating" id="star5" value="5" class="btn-check">
+                    <label for="star5" class="rate-num-btn">5</label>
+
+                </div>
+            </div>
+
+            <div class="review-section">
+                <label for="reviewText" class="review-label">Written Review <span>(Optional)</span></label>
+                <textarea id="reviewText" class="form-control review-input"
+                    placeholder="Share your thoughts on the cinematography, plot, or atmosphere..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SUBMIT RATING</button>
+            <a href="home.html" class="btn fw-bold rounded-2 mt-2 ba">
+                <i class="bi bi-arrow-left me-1"></i> Back to Home
+            </a>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

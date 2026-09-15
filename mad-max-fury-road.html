@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Max: Fury Road - SHOWFILMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-dark text-white pb-5">
+
+    <nav class="navbar navbar-expand bg-black px-4 fixed-top">
+        <div class="d-flex align-items-center gap-3">
+            <a href="index.html"><img src="assets\logo.png" alt="SHOWFILMS logo" class="thlogo"></a>
+        </div>
+        <div class="navbar-nav me-auto align-items-center texnav">
+            <a class="nav-link text-white ac" href="home.html">Home</a>
+            <a class="nav-link text-secondary ac" href="#">Movies</a>
+            <a class="nav-link text-secondary ac" href="#">TV Shows</a>
+            <a class="nav-link text-secondary ac" href="#">My List</a>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-bell text-white fs-5"></i>
+            <img src="assets\profile.png" class="profile">
+            <button id="logoutBtn" class="btn btn-outline-light btn-sm">
+        Log Out
+    </button>
+
+    <button id="deleteBtn" class="btn btn-outline-danger btn-sm">
+        Delete
+    </button>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5 mb-5">
+        <div class="row g-4 align-items-center mt-4">
+
+            <div class="col-lg-7">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow border border-secondary bg-black">
+                    <iframe id="movieTrailer5" src="" title="Movie Trailer" allowfullscreen></iframe>
+                </div>
+
+                <div class="mt-3 d-flex align-items-center">
+                    <a href="home.html" class="btn btn-outline-light rounded-pill">
+                        <i class="bi bi-arrow-left "></i> Back
+                    </a>
+                    <a href="rating.html" class="btn btn-outline-danger fw-bold ms-2 rounded-pill">
+                        <i class="bi bi-star-fill me-1"></i> Rate
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+                <h1 id="movieTitle" class="display-5 fw-bold">Mad Max: Fury Road</h1>
+
+                <div class="d-flex align-items-center gap-3 my-2 text-secondary">
+                    <span>Action • 2015</span>
+                    <span id="movieViews" class="text-warning">
+                        <i class="bi bi-eye-fill me-1"></i> 1.2M Views
+                    </span>
+                </div>
+
+                <p id="movieDescription" class="fs-6">
+                    In a post-apocalyptic wasteland, Max joins Furiosa and a group of rebels as they attempt to escape a ruthless warlord.
+                </p>
+
+                <div class="mt-4 pt-3 border-top border-secondary">
+                    <h6 class="text-secondary fw-bold mb-2">CAST</h6>
+                    <p id="movieCast">
+                        Tom Hardy,<br> Charlize Theron,<br> Nicholas Hoult,<br> Hugh Keays-Byrne
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-black text-secondary py-5 mt-5">
+        <div class="container-fluid px-5">
+
+            <div class="row g-4 mb-5 text-start">
+                <div class="col-3">
+                    <a href="#" class="text-secondary fo small">Audio Description</a><br>
+                    <a href="#" class="text-secondary fo small">Privacy</a>
+                </div>
+                <div class="col-3 ">
+                    <a href="#" class="text-secondary fo small">Help Center</a><br>
+                    <a href="#" class="text-secondary fo small">Cookie Preferences</a>
+                </div>
+                <div class="col-3 ">
+                    <a href="#" class="text-secondary fo small">Gift Cards</a>
+                </div>
+                <div class="col-3 ">
+                    <a href="#" class="text-secondary fo small">Terms of Use</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top">
+                <h3 class="fw-bold text-white">SHOWFILMS</h3>
+                <small class="text-secondary">&copy; 2026 SHOWFILMS Entertainment. All rights reserved.</small>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
